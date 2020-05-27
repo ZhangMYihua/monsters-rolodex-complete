@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zhangmyihua.github.io/monsters-rolodex",
+  "homepage": "https://zhangmyihua.github.io/monsters-rolodex-complete/",
   "dependencies": {
     "gh-pages": "2.0.1",
     "react": "^16.8.6",
