@@ -1,7 +1,14 @@
 import React from 'react';
 import './search-box.styles.css';
+// TYPESCRIPT
+import { ChangeEventHandler } from 'react';
 
-const SearchBox = ({ onSearchChange }) => (
+// objects started with type keywords in react
+type SearchBoxProps = {
+	onSearchChange: ChangeEventHandler<HTMLInputElement>;
+};
+
+const SearchBox = ({ onSearchChange }: SearchBoxProps) => (
 	<input
 		className='search-box'
 		type='search'
